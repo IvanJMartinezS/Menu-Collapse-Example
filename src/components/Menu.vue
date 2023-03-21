@@ -15,7 +15,7 @@ const collapsed = ref(false);
     </div>
 
     <div class="profile">
-      <img src="../assets/profile-image.png" alt="" />
+      <img src="../assets/ivanjmartinezs.jpg" alt="img-profile-photo" />
       <div class="profile-name" v-if="!collapsed">
         {{ MenuItems.profile.name }}
       </div>
